@@ -1,3 +1,6 @@
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/d06f1be7-96dc-4035-8e46-f616fc7b844c" />
+
+
 Scaffold-Episodic Meta-Learning with Context-Conditioned LoRA for Few-Shot Molecular Generation.
 Colab link: https://colab.research.google.com/drive/1VH2OiE66KpyaCXJHiptN3jVkFy395kOx?usp=sharing
 
