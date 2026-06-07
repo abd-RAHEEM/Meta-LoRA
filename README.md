@@ -17,7 +17,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **Meta-LoRA** is a scaffold-aware few-shot molecular generation framework that combines:
 
@@ -29,20 +29,20 @@ Given a small _support set_ of SMILES strings from the same scaffold family, the
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature                     | Details                                                            |
 | --------------------------- | ------------------------------------------------------------------ |
-| 🧬 **Few-Shot**             | Works with as few as 3 SMILES strings                              |
-| ⚡ **Zero-Shot Adaptation** | No fine-tuning at inference time                                   |
-| 🏗️ **Scaffold-Aware**       | Trained episodically on Bemis-Murcko scaffold families             |
-| 🔒 **Frozen Base Model**    | 3.2M base params completely frozen; only ~500k LoRA params trained |
-| 💊 **Drug-Like Outputs**    | High QED, valid Lipinski properties                                |
-| 📊 **Rich Metrics**         | Validity, Uniqueness, Novelty, Tanimoto similarity, QED, LogP, MW  |
+|  **Few-Shot**             | Works with as few as 3 SMILES strings                              |
+|  **Zero-Shot Adaptation** | No fine-tuning at inference time                                   |
+|  **Scaffold-Aware**       | Trained episodically on Bemis-Murcko scaffold families             |
+|  **Frozen Base Model**    | 3.2M base params completely frozen; only ~500k LoRA params trained |
+|  **Drug-Like Outputs**    | High QED, valid Lipinski properties                                |
+|  **Rich Metrics**         | Validity, Uniqueness, Novelty, Tanimoto similarity, QED, LogP, MW  |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Support Set (K SMILES)
@@ -89,7 +89,7 @@ Support Set (K SMILES)
 
 ---
 
-## 📊 Benchmark Results
+##  Benchmark Results
 
 Results from a **10-trial robustness experiment** on ZINC250k (5-shot, 100 molecules generated per trial, seed=42):
 
@@ -119,7 +119,7 @@ The ablation confirms that:
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 Try the interactive Gradio app on Hugging Face Spaces:
 
@@ -129,7 +129,7 @@ Paste 3–10 SMILES from the same scaffold family, adjust temperature and number
 
 ---
 
-## 🔬 Training Pipeline
+##  Training Pipeline
 
 The full training pipeline is in the Colab notebook:
 
@@ -152,7 +152,7 @@ The full training pipeline is in the Colab notebook:
 
 ---
 
-## 🧪 Using the Model Programmatically
+##  Using the Model Programmatically
 
 The deployed model is hosted on Hugging Face Hub at [`abdulRaHeeM452/Molecule-generator`](https://huggingface.co/abdulRaHeeM452/Molecule-generator).
 
@@ -194,7 +194,7 @@ for smi in results['novel_smiles'][:5]:
 
 ---
 
-## 📦 Repository Structure
+##  Repository Structure
 
 ```
 Meta-LoRA/
@@ -209,7 +209,7 @@ Meta-LoRA/
 
 ---
 
-## ⚙️ Local Setup
+##  Local Setup
 
 ```bash
 # Clone the repo
@@ -227,7 +227,7 @@ python app.py
 
 ---
 
-## 🛠️ Dependencies
+##  Dependencies
 
 | Package          | Version    |
 | ---------------- | ---------- |
@@ -245,14 +245,14 @@ python app.py
 
 | Resource                     | Link                                                                                                        |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| 📓 Training Notebook (Colab) | [Open in Colab](https://colab.research.google.com/drive/1VH2OiE66KpyaCXJHiptN3jVkFy395kOx?usp=sharing)      |
-| 🤗 Live Demo (HF Spaces)     | [Meta-LoRA Molecular Generator](https://huggingface.co/spaces/abdulRaHeeM452/Molecule-Generator) |
-| 🤗 Model Weights (HF Hub)    | [abdulRaHeeM452/Molecule-generator](https://huggingface.co/abdulRaHeeM452/Molecule-generator)               |
-| 📦 GitHub Repository         | [abd-RAHEEM/Meta-LoRA](https://github.com/abd-RAHEEM/Meta-LoRA)                                             |
+|  Training Notebook (Colab) | [Open in Colab](https://colab.research.google.com/drive/1VH2OiE66KpyaCXJHiptN3jVkFy395kOx?usp=sharing)      |
+|  Live Demo (HF Spaces)     | [Meta-LoRA Molecular Generator](https://huggingface.co/spaces/abdulRaHeeM452/Molecule-Generator) |
+|  Model Weights (HF Hub)    | [abdulRaHeeM452/Molecule-generator](https://huggingface.co/abdulRaHeeM452/Molecule-generator)               |
+|  GitHub Repository         | [abd-RAHEEM/Meta-LoRA](https://github.com/abd-RAHEEM/Meta-LoRA)                                             |
 
 ---
 
-## 📚 References
+##  References
 
 - Hu, E. J. et al. (2022). **LoRA: Low-Rank Adaptation of Large Language Models.** _ICLR 2022._
 - Bemis, G. W. & Murcko, M. A. (1996). **The Properties of Known Drugs. 1. Molecular Frameworks.** _J. Med. Chem._
@@ -262,7 +262,7 @@ python app.py
 
 ---
 
-## 📄 License
+##  License
 
 This project is released under the [MIT License](LICENSE).
 
