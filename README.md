@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# ⚗️ Meta-LoRA: Scaffold-Episodic Meta-Learning with Context-Conditioned LoRA for Few-Shot Molecular Generation
+#  Meta-LoRA: Scaffold-Episodic Meta-Learning with Context-Conditioned LoRA for Few-Shot Molecular Generation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VH2OiE66KpyaCXJHiptN3jVkFy395kOx?usp=sharing)
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20HF%20Spaces-Live%20Demo-yellow)](https://huggingface.co/spaces/abdulRaHeeM452/Molecule-Generator)
